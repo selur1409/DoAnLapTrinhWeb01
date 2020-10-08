@@ -1,0 +1,265 @@
+/* css bình luận */
+
+.btn{
+    padding: 3px 10px;
+}
+.row-cmt{
+    padding-top: 50px;
+    height: auto;
+}
+.left-cmt{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.left-cmt img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    display: block;
+    margin-top: 5px;
+}
+.right-cmt{
+    float: left;
+    height: 80px;
+    width: 570px;
+}
+.chitietcmt{
+    height: 100px;
+    width: max-content;
+}
+.noidung{
+    width: 550px;
+    padding: 3px 15px;
+    margin: 5px 5px;
+    outline: none;
+    border-radius: 25px;
+}
+.ngay{
+    font: italic bold 10px arial;
+    text-align: center;
+    margin-left: 25px;
+}
+.nguoi-cmt{
+    font: bold 15px Arial;
+    margin-left: 20px;
+}
+
+#titleChiTiet{
+    margin-bottom: 4%;
+}
+
+
+.chitietleft{
+    width : 570px;
+    height: 480px;
+    float: left;
+}
+
+
+.chitietleft div{
+    width: 90px;
+    height: 460px;
+    float: left;
+}
+
+
+.chitietleft img{
+    width: 460px;
+    height: 460px;
+    float: right;
+}
+.chitietright{
+    height: 480px;
+    float: right;
+    width: 520px;
+    margin-right: 20px;
+}
+
+.chitietright div{
+    margin-bottom: 10px;
+}
+
+.chitietright .chitietright_1{
+    float: right;
+    width: 520px;
+    border-bottom: 1px solid rgb(167, 160, 160) ;
+}
+
+
+.chitietright .chitietright_2{
+    float: right;
+    width: 520px;
+    border-bottom: 1px solid rgb(167, 160, 160) ;
+}
+
+#divSize{
+    height: 20px;
+}
+
+#divSize span{
+    float: left;
+}
+
+#divSize .size_CTSP{
+    width: 30px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid black;
+}
+
+#divSoLuong div{
+    width: 520px;
+    float: left;
+}
+
+
+#btnThemVaoGioHang{
+    width: 100%;
+}
+
+#btnThemVaoGioHang a{
+    margin: 0 auto;
+}
+
+#hetHang{
+    background-color: red;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+#moTaSP div{
+    float: left;
+    height: 30px;
+    width: 572px;
+    font-size: 20px;
+}
+
+#moTaSP{
+   width: 1120px;
+   float: left;
+}
+
+#moTaSP .ttl{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#moTaSP #ndMoTa{
+    margin-bottom: 40px;
+}
+
+
+
+
+.label{
+    width: 140px;
+    text-align: right;
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+}
+.data{
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+.productname{
+    font-size: 18px;
+    font-weight: bold;
+    color: #F69;
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    color: #F93;
+}
+.factory{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3C6;
+}
+
+#content h5{
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.col-xs-6, .col-md-4 {
+    width: 30%;
+    margin: 15px 15px;
+    padding: 15px 15px;
+    border-top: solid 2px #c0c0c0;
+}
+.col-xs-6 .chitietleft, .col-md-4 .chitietleft{
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin: 0 0;
+    padding: 0;
+}
+.col-xs-6 .chitietright, .col-md-4 .chitietright{
+    width: 200px;
+    height: 130px;
+    float: right;
+    margin: 0 0;
+    padding-top: 10px;
+}
+.col-xs-6 img, .col-md-4 img{
+    width: 50px;
+    height: 50px;
+}
+.col-xs-6, .col-md-4{
+    border-top: solid 2px #c0c0c0;
+}
+
+
+.col-xs-12, .col-md-8{
+    width: 100%;
+    margin: 15px 5px;
+    padding: 15px 15px;
+    /* border-right: solid 2px #c0c0c0; */
+    border-top: solid 2px #c0c0c0;
+}
+
+#chooseIMG img{
+    width: 90px;
+    height: 90px;
+    margin:10px 0;
+    padding: 0;
+    border: 1px solid rgb(138, 129, 129);
+}
+
+#chooseIMG img:hover{
+    cursor: pointer;
+}
+
+
+#btnThemVaoGioHang{
+    margin: 50px auto;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+}   
+
+#btnThemVaoGioHang a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

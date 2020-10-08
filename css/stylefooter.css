@@ -1,0 +1,30 @@
+#footer{
+    background: #B8D7D5;
+    padding: 8px 8px 5px 8px;
+    text-align: center;
+    border-bottom: 2px solid #FFF;
+    color: #500000;
+    margin-top: 50px;
+}
+.row-f{
+    margin: 50px 20px 0;
+    font-weight: normal;
+}
+.fix{   
+    padding-bottom: 20px;
+    border-bottom: solid 5px #c0c0c0;
+}
+.col-md-6{
+    padding-top: 50px;
+}
+
+.ft:nth-child(even){
+    border-top: none;
+}
+.ft:nth-child(odd){
+    border-top: none;
+}
+
+.ft ul li{
+    list-style-type: none;
+}

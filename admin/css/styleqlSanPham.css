@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.themSanPham h1, .capNhatSanPham h1{
+    margin: 0;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    border-left: 5px solid rgb(184, 177, 177);
+    padding: 7px 0 7px 15px;
+    line-height: 25px;
+}
+
+.themSanPham, .capNhatSanPham{
+    width: 1100px;
+    max-width: 1100px;
+    height: 500px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.themSanPham{
+    height: 550px;
+}
+.capNhatSanPham{
+    height: 500px;
+}
+
+.themSanPham .hinh, .themSanPham .thongTinCoBan, .themSanPham .thongTinGiaoDich{
+    height: 300px;
+}
+
+.capNhatSanPham .hinh, .capNhatSanPham .thongTinCoBan, .capNhatSanPham .thongTinGiaoDich{
+    height: 350px;
+}
+
+.hinh{
+    float: left;
+    width: 250px;
+    position: relative;
+}
+
+.hinhSanPham{
+    margin-left: 10px;
+    float: left;
+    width: 200px;
+    height: 310px;
+    position: absolute;
+}
+
+
+.thongTinCoBan{
+    float: left;
+    width: 450px;
+    height: 350px;
+}
+
+.thongTinCoBan div{
+    margin: 30px 20px;
+    text-align: right;
+}
+
+.thongTinCoBan input{
+    width: 220px;
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 3px 6px;
+}
+
+
+.thongTinCoBan span{
+    display: inline-block;
+    margin: 5px 20px 0 0;
+    font-size: 17px;
+}
+
+.thongTinGiaoDich{
+    float: left;
+    width: 400px;
+    height: 350px;
+}
+
+
+.thongTinGiaoDich div{
+    margin: 30px 20px;
+    text-align: right;
+}
+
+.thongTinGiaoDich input{
+    width: 220px;
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 3px 6px;
+
+}
+
+.thongTinGiaoDich span{
+    display: inline-block;
+    margin: 5px 20px 0 0;
+    font-size: 17px;
+}
+
+
+.sub{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.rdChoose{
+    width: 600px;
+    height: 50px;
+    margin: 5px auto;
+    padding: 20px;
+}
+#rdContinue{
+    margin-left: 30px;
+}
+#rdDisplayList{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.optSP{
+    width: 220px;
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 3px 6px;
+}
+
+.hinhSanPham img{
+    margin-top: 10px;
+    width: 200px;
+}
+
+
+.divMoTa{
+    float: left;
+    margin-top: 10px;
+    height: 125px;
+    width: 800px;
+    position: relative;
+}
+.divMoTa span{
+    display: block;
+    height: 30px;
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    margin: 5px 0 10px 15px;
+    text-decoration: underline;
+}
+
+#txtMoTa{
+    display: block;
+    float: left;
+    font-size: 16px;
+    width: 990px;
+    height: 70px;
+    padding: 3px 6px;
+    margin-left: 55px;
+}
+
+#btnSubmit{
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(100, 92, 92);
+    background-color: rgb(226, 224, 224);
+    text-align: center;
+    transition: 0.4s;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#btnSubmit:hover{
+    background-color: rgb(0, 0, 0);
+    width: 170px;
+    color: rgb(222, 233, 66);
+    cursor: pointer;
+}
+
+.capNhatSanPham .sub #btnSubmit{
+    margin-top: 10px;
+}
+
+.capNhatSanPham .thongTinCoBan i, .themSanPham .thongTinCoBan i{
+    display: block;
+    float: left;
+    margin: 3px 0 0 0;
+    margin-left: 160px;
+    font-size: 13px;
+    color:red;
+}
+
+.capNhatSanPham .thongTinGiaoDich i, .themSanPham .thongTinGiaoDich i{
+    display: block;
+    float: left;
+    margin: 3px 0 0 0;
+    margin-left: 110px;
+    font-size: 13px;
+    color:red;
+}
+
+
+
+.thongtinsize{
+    width: 450px;
+    height: 340px;
+    margin: auto;
+}
+
+.thongtinsize div{
+    margin: 30px 20px;
+    text-align: right;
+}
+
+.thongtinsize input{
+    width: 220px;
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 3px 6px;
+}
+
+
+.thongtinsize span{
+    display: inline-block;
+    margin: 5px 20px 0 0;
+    font-size: 17px;
+}
+.thongtinsize>h1.title{
+    margin: 0;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 7px 0 7px 15px;
+    line-height: 25px;
+    border-left: none;
+}
+
+
+.thongtinhinh{
+    width: 450px;
+    height: 340px;
+    margin: auto;
+}
+
+.thongtinhinh div{
+    margin: 30px 20px;
+    text-align: right;
+}
+
+.thongtinhinh input{
+    width: 220px;
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 3px 6px;
+}
+
+
+.thongtinhinh span{
+    display: inline-block;
+    margin: 5px 20px 0 0;
+    font-size: 17px;
+}
+.thongtinhinh>h1.title{
+    margin: 0;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 7px 0 7px 15px;
+    line-height: 25px;
+    border-left: none;
+}
+
+
+
+
+.capNhatHinhSanPham h1{
+    margin: 0;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    border-left: 5px solid rgb(184, 177, 177);
+    padding: 7px 0 7px 15px;
+    line-height: 25px;
+}
+
+.capNhatHinhSanPham{
+    width: 900px;
+    height: 500px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.capNhatHinhSanPham .hinh, .capNhatHinhSanPham .thongtinhinh{
+    height: 200px;
+}
+
+
+.rd-Choose{
+    width: 410px;
+    height: 50px;
+}

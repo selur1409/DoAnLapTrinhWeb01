@@ -1,0 +1,17 @@
+#LogOut{
+    width: 200px;
+    height: 80px;
+    float: right;
+    text-align: right;
+}
+
+#LogOut {
+    width: 200px;
+    height: 80px;
+    float: right;
+    text-align: right;
+}
+
+#LogOut a, span {
+    line-height: 80px;
+}

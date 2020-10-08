@@ -1,0 +1,164 @@
+#logo-nameShop{
+    display: block;
+    width: 150px;
+    height: 80px;
+    background-color: #EEEEEE;
+}
+
+#logo-nameShop img{
+    margin: 10px 0 0 20px;
+    float: left;
+}
+
+#nameShop{
+    float: left;
+    height: 80px;
+    font-size: 20px;
+    color: blueviolet;
+    line-height: 80px;
+}
+
+.search{
+    display: block;
+    width: 340px;
+    height: 80px;
+    float: left;
+}
+
+#txtSearch{
+    width: 260px;
+    margin: 27px 0 0 15px;
+    padding: 3px 6px;
+    border-radius: 7px;
+    border: 1px solid rgb(112, 111, 111);
+}
+
+#btnSearch{
+    margin: 0;
+    margin-left: 3px;
+    padding: 4px 4px 3px 4px;
+    border-radius: 10px;
+    border: 1px solid rgb(112, 111, 111);
+}
+
+#btnSearch:hover{
+    background-color: #B8D7D5;
+}
+
+
+.menu ul{
+    height: 80px;
+    width: 450px;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+
+.menu ul li{
+    display:inline-table;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    background-color: #EEEEEE;
+}
+
+.menu ul li a{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+    
+}
+
+
+.menu ul li a:hover{
+    border-bottom: 3px solid red;
+    transition: 0.1s;
+}
+
+
+.menu ul li > .sub-menu{
+    display: none;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.menu ul li > .sub-menu-hang{
+    display: none;
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.sub-menu li{
+    text-align: center;
+    width: 120px;
+}
+
+
+.sub-menu-hang li{
+    text-align: center;
+    width: 120px;
+}
+
+
+
+.menu ul li:hover .sub-menu{
+    display: block;
+}
+
+
+.menu ul li:hover .sub-menu-hang{
+    display: block;
+}
+
+
+
+
+#Login-SignUp{
+    width: 200px;
+    height: 80px;
+    float: right;
+}
+
+#Login-SignUp a{
+    
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 35px;
+    float: left;
+    padding:0 12px;
+    height: 35px;
+    margin-top: 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 18px;
+}
+
+
+#Login-SignUp > a{
+    margin-right: 7px;
+}
+
+#Login-SignUp a:hover{
+    background-color: #B8D7D5;
+}
+
+
+
+#lSP{
+
+}
+
+#lSP a{
+    display: block;
+    float: right;
+    width: 100px;
+}

@@ -1,0 +1,199 @@
+body{
+    font-family: Tahoma, helvetica, arial, sans-serif;
+    font-size: 15px;
+
+}
+
+#header{
+    background: #B8D7D5;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    clear: both;
+    padding-top: 15px ;
+}
+
+#header a{
+    color: #500000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#menu{
+    height: 100px;
+    background:#EEEEEE;
+}
+
+#mMenu{
+    float: left;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+#menu a{
+    color: #500000;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+#login{
+    height: 50px;
+    width: 1000px;
+    color: #500000;
+    text-decoration: none;
+    float: right;
+    text-align: right;
+}
+
+#content{
+    min-height: 200px;
+}
+
+#content h1{
+    color: #a05000;
+    text-align: center;
+}
+
+
+#footer{
+    clear: both;
+    background: #B8D7D5;
+    padding: 8px 8px 5px 8px;
+    text-align: center;
+    border-bottom: 2px solid #FFF;
+    font-weight: bold;
+    color: #500000;
+    margin-top: 50px;
+}
+
+th{
+    background: #B8D7D5;
+    text-align: center;
+}
+
+table{
+   
+    margin:auto;
+}
+
+
+
+
+/**/
+/*==Reset CSS==*/
+  
+  /*==Style cho menu===*/
+  #mMenu ul {
+    background: #EEEEEE;
+    list-style-type: none;
+    text-align: center;
+  }
+  #mMenu li {
+    color: #000;
+    display: inline-block;
+    width: 120;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 50px;
+  }
+  #mMenu a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+  }
+
+
+.fie{
+    width: 500px;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+}
+.leg{
+    font-weight: bold;
+    text-align: center;
+}
+.nd{
+    padding: 5px;
+    text-align: center;
+}
+.nd input[type="submit"]{
+    margin: 10px auto;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #B8D7D5;
+    padding: 5px;
+    outline: none;
+}
+.label2{
+    width: 150px;
+    float: left;
+    text-align: right;
+    font-size: 13px;
+    display: block;
+    margin-right: 10px;
+    color: #000000;
+}
+
+
+#xlDonHang ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+#xlDonHang li {
+    color: #000;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+#xlDonHang a {
+    text-decoration: none;
+    color: #500000;
+    display: block;
+}
+#xlDonHang a:hover {
+    background: rgb(75, 75, 75);
+    color: #FFF;
+}
+
+#xlDonHang{
+    float: left;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.tb{
+    margin-top: 20px;
+    height: auto;
+}
+
+.tieude{
+    margin: 20px;
+}
+.btnSubmit{
+    margin: 20px auto 0px;
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #B8D7D5;
+    padding: 5px;
+    outline: none;
+}
+.btnAdd{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.btnAdd a{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
